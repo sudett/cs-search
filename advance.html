@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Advanced Search</title>
+  </head>
+  <body>
+    <h2 class="advance__heading">advanced search</h2>
+    <p class="horizontal-line"></p>
+
+    <form class="advance__form" action="https://www.google.com/search">
+      <h3 class="advance__form-heading">Find pages with...</h3>
+      <div class="advance__group">
+        <label for="all">all these words:</label>
+        <input class="advance__input" id="all" name="as_q" type="text">
+      </div>
+      <div class="advance__group">
+        <label for="exact">this exact word or phrase:</label>
+        <input class="advance__input" id="exact" name="as_epq" type="text">
+      </div>
+      <div class="advance__group">
+        <label for="any">any of these words:</label>
+        <input class="advance__input" id="any" name="as_oq" type="text">
+      </div>
+      <div class="advance__group">
+        <label for="none">none of these words:</label>
+        <input class="advance__input" id="none" name="as_eq" type="text">
+      </div>
+      <div class="advance__submit-container">
+        <input class="btn advance__submit" type="submit" value="Advanced Search">
+      </div>
+    </form>
+
+    <a href="./index.html">
+      <i class="fa fa-arrow-left btn--back" aria-hidden="true"></i>
+    </a>
+  </body>
+</html>

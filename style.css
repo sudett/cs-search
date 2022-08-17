@@ -1,0 +1,163 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Search page */
+.search__form {
+  max-width: 50rem;
+  margin: 15rem auto 0;
+}
+
+.search__input-container {
+  position: relative;
+}
+
+.icon--magnify {
+  position: absolute;
+  top: 1.3rem;
+  left: 2.5rem;
+  color: #ccc;
+}
+
+.search__input {
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 1rem 2rem;
+  padding-left: 5rem;
+  border-radius: 2rem;
+  font-size: inherit;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.search__input:hover, .search__input:focus {
+  box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.1);
+}
+
+.btn--close {
+  position: absolute;
+  top: 1rem;
+  right: 2.5rem;
+  font-size: 2rem;
+  color: #999;
+}
+
+.search__submit-btns {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.btn--submit {
+  margin-right: 2rem;
+  font-size: inherit;
+  background-color: #eee;
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+}
+
+.btn--submit:hover {
+  border: 1px solid #ccc;
+}
+
+.btns-container {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.btns-container a {
+  margin-right: 1rem;
+}
+
+/* Image page */
+.btn--image-submit {
+  margin-right: 0;
+}
+
+.btn--back {
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+}
+
+/* Advanced page */
+.advance__heading {
+  color:brown;
+  text-transform: capitalize;
+  font-weight: 200;
+  padding: 3rem 4rem;
+}
+
+.horizontal-line {
+  border-bottom: 1px solid #ccc;
+}
+
+.advance__form {
+  padding: 5rem 4rem;
+  color: #222;
+  max-width: 80rem;
+}
+
+.advance__form-heading {
+  font-weight: 300;
+  padding-bottom: 2rem;
+}
+
+.advance__group {
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.advance__input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.advance__input:focus {
+  border: 1px solid blue;
+  box-shadow: inset 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+.advance__submit-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.advance__submit {
+  background-color: 	#4285F4;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+}
+
+.advance__submit:hover {
+  background-color: #0f64f2;
+}
